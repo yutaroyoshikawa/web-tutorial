@@ -1,5 +1,4 @@
 {
-  "installCommand": "yarn install",
   "buildCommand": "build",
   "publishDirectory": {
     "react": "build/node_modules/react",
