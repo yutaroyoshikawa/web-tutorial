@@ -27,8 +27,10 @@ export const App: FC = () => {
   return (
     <div className="App">
       <div className="App-header">
-        <textarea value={a} onChange={(e) => setA(e.target.value)}></textarea>
-        <textarea value={b} onChange={(e) => setB(e.target.value)}></textarea>
+        <div style={{display: "flex"}}>
+          <textarea value={a} onChange={(e) => setA(e.target.value)}></textarea>
+          <textarea value={b} onChange={(e) => setB(e.target.value)}></textarea>
+        </div>
         <div>
           <div>Deep Equal</div>
           <div>{deep}</div>
